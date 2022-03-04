@@ -34,9 +34,9 @@ class Reagent(models.Model):
                                         #  null=True 
                                          )
     #------------------------------------------------------------------------
-    image01 = models.ImageField(blank=True, null=True)
-    image02 = models.ImageField(blank=True, null=True)
-    image03 = models.ImageField(blank=True, null=True)
+    # image01 = models.ImageField(blank=True, null=True)
+    # image02 = models.ImageField(blank=True, null=True)
+    # image03 = models.ImageField(blank=True, null=True)
 
     def __str__(self):
         return self.name
